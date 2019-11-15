@@ -175,7 +175,7 @@ class CWebUser {
 	 * @return string
 	 */
 	public static function getSessionCookie() {
-		return get_cookie(ZBX_SESSION_NAME);
+		return get_cookie("zabbix");
 	}
 
 	public static function setDefault() {
